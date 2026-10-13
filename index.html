@@ -1,50 +1,25 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>我的博客</title>
-    <link rel="stylesheet" href="style.css">
+    <title></title>
+    <style>
+        #main {
+            width: 100%;
+            height: 100vh;
+        }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/echarts/dist/echarts.min.js"></script>
+    
+   
+
 </head>
 <body>
-    <marquee behavior="" direction="left">欢迎来到这里</marquee>
-    <div class="container">
-        <!-- 头部：头像和简介 -->
-        <header class="profile">
-            <img src="https://avatars.githubusercontent.com/u/9919?s=200&v=4" alt="头像" class="avatar">
-            <h1>你好，我是小明</h1>
-            <p class="bio">一个热爱编程和写作的人，在这里记录我的学习与思考。</p>
-            <div class="social-links">
-                <a href="https://github.com/yourname" target="_blank">GitHub</a>
-                <a href="mailto:you@example.com">Email</a>
-                <a href="https://twitter.com/yourname" target="_blank">Twitter</a>
-            </div>
-        </header>
 
-        <!-- 文章列表 -->
-        <main class="posts">
-            <h2>最新文章</h2>
-            <article class="post-item">
-                <h3><a href="#">我的第一篇博客</a></h3>
-                <p class="date">2026-09-20</p>
-                <p class="excerpt">这是文章摘要，简单介绍这篇文章讲了什么内容……</p>
-            </article>
-            <article class="post-item">
-                <h3><a href="#">学习 GitHub Pages 的笔记</a></h3>
-                <p class="date">2026-09-15</p>
-                <p class="excerpt">记录如何用 GitHub Pages 搭建自己的静态网站……</p>
-            </article>
-            <article class="post-item">
-                <h3><a href="#">前端入门的一些心得</a></h3>
-                <p class="date">2026-09-08</p>
-                <p class="excerpt">从零开始学习 HTML、CSS 和 JavaScript 的经验分享……</p>
-            </article>
-        </main>
+    <div id="main"></div>
+    <script src="option.js"></script>
 
-        <!-- 页脚 -->
-        <footer>
-            <p>© 2026 小明 · 由 GitHub Pages 驱动</p>
-        </footer>
-    </div>
+    
 </body>
 </html>
